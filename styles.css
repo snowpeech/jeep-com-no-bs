@@ -1,6 +1,7 @@
 :root {
   --yellow: #FFBA00;
   --grey1: #636363;
+  --dotgrey:#BDBDBD;
   --ltgrey: #D1D1D1; 
   --dkgrey: #212121;
 }
@@ -81,4 +82,23 @@ a {
 	font-weight: bold;
 	font-size: 14px;
 	margin: 0px 33px;
+	min-width: 64px; /*want to remove this and have the icon attahed to the button, not wrapping*/
+}
+
+.dotrow {
+	/*border:1px solid green;*/
+	color: var(--dotgrey);
+	position: relative;
+	top: -28px;
+	display: flex;
+	justify-content: space-around;
+	width: 104px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+}
+
+.dot {
+	background-color: var(--yellow) ;
+	border-radius: 50%;
 }
