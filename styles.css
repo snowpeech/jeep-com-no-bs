@@ -1,6 +1,54 @@
 :root {
   --yellow: #FFBA00;
   --grey1: #636363;
-  --ltgrey: #636363; 
+  --ltgrey: #D1D1D1; 
   --dkgrey: #212121;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;	
+	color: white;
+	/*padding: 0px 10px;*/
+}
+
+.navbar {
+	display: flex;
+	padding: 0px 10px;
+	background-color: black;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.nav1 {
+
+}
+
+.logo {
+	width: 60px;
+	height: auto;
+	padding: 9px 5px 5px;
+}
+
+.nav2 {
+	text-transform: uppercase;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 30%;
+	min-width: 180px;
+	font-size: smaller;
+}
+
+/*End of Navbar. Begin Carousel*/
+
+.carousel {
+	/*width: 100%;
+	height: auto;*/
+	height: 100%;
+	width: auto;
 }
