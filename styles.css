@@ -18,6 +18,11 @@ a {
 	/*padding: 0px 10px;*/
 }
 
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .navbar {
 	display: flex;
 	padding: 0px 10px;
@@ -120,22 +125,27 @@ a {
 /*end of carousel classes*/
 .newcars {
 	text-transform: uppercase;	
-	/*display: flex;*/
-}
-
-.newcars h3 {
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .carfeat {
 	display: flex;
-/*	max-width: 50%;
-	min-width: 33%;
-*/	max-width: 200px;
-	min-width: 110px;
-	border: 1px solid blue;
+	flex:2;
+	min-width: 34%;
 	flex-direction: column;
 	text-align: center;
+	border: 1px solid blue;
+	padding: 15px;
+}
+
+.carfeat h4 {
+	width: 90%;
+	margin-top: 0px;
+}
+
+.carfeat div:nth-child(2) {
+	align-content: flex-end;
 }
 
 .carpic {
