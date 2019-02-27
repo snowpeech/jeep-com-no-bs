@@ -10,6 +10,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 a {
@@ -20,7 +21,6 @@ a {
 
 h3 {
 	text-align: center;
-	text-transform: uppercase;
 }
 
 .navbar {
@@ -45,7 +45,6 @@ h3 {
 }
 
 .nav2 {
-	text-transform: uppercase;
 	display: inline-flex;
 	justify-content: space-around;
 	width: 30%;
@@ -80,6 +79,7 @@ h3 {
 	top:60px;
 	z-index: 2;
 	text-align: center;
+	text-transform: none;
 	color:white;
 	/*border: 1px solid red;*/
 	padding: 10px 55px;
@@ -98,12 +98,12 @@ h3 {
 	background-color: var(--yellow);
 	border-radius: 2px;
 	color: black;
-	text-transform: uppercase;
 	padding: 10px 20px;
 	font-weight: bold;
 	font-size: 14px;
 	margin: 0px 33px;
 	white-space:nowrap;
+	text-transform: uppercase;
 }
 
 .dotrow {
@@ -125,7 +125,6 @@ h3 {
 } 
 /*end of carousel classes*/
 .newcars {
-	text-transform: uppercase;	
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -176,7 +175,6 @@ h3 {
 .cartile {
 /*padding stuff*/
 	color: white;
-	text-transform: uppercase;
 }
 
 .cartile + .cartile {
