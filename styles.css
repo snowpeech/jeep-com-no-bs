@@ -144,11 +144,23 @@ h3 {
 	margin-top: 0px;
 }
 
-.carfeat div:nth-child(2) {
-	align-content: flex-end;
+.carfttxt{
+	display:flex;
+	align-items:flex-end;
+	justify-content:center;
+	height:100%;
 }
-
 .carpic {
 	height: auto;
 	width: 100%;
+}
+
+.littletxt {
+	font-size: 8px;
+	color: var(--grey);
+}
+
+.price {
+	font-weight: bold;
+	font-size: 14px;
 }
