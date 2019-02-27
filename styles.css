@@ -110,10 +110,35 @@ a {
 	width: 104px;
 	margin-right: auto;
 	margin-left: auto;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .dot {
 	background-color: var(--yellow) ;
 	border-radius: 50%
+} 
+/*end of carousel classes*/
+.newcars {
+	text-transform: uppercase;	
+	/*display: flex;*/
+}
+
+.newcars h3 {
+	text-align: center;
+}
+
+.carfeat {
+	display: flex;
+/*	max-width: 50%;
+	min-width: 33%;
+*/	max-width: 200px;
+	min-width: 110px;
+	border: 1px solid blue;
+	flex-direction: column;
+	text-align: center;
+}
+
+.carpic {
+	height: auto;
+	width: 100%;
 }
