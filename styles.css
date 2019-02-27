@@ -135,13 +135,15 @@ h3 {
 	min-width: 34%;
 	flex-direction: column;
 	text-align: center;
-	border: 1px solid blue;
+/*	border: 1px solid blue;*/
 	padding: 15px;
 }
 
 .carfeat h4 {
 	width: 90%;
 	margin-top: 0px;
+	margin-left: 6px;
+	margin-bottom: 10px;
 }
 
 .carfttxt{
@@ -157,10 +159,44 @@ h3 {
 
 .littletxt {
 	font-size: 8px;
-	color: var(--grey);
+	color: var(--grey1);
 }
 
 .price {
 	font-weight: bold;
 	font-size: 14px;
 }
+/*end of new cars. begin Explore Tiles*/
+.greyback {
+	background-color: var(--ltgrey);
+} 
+
+.cartile {
+/*padding stuff*/
+	color: white;
+	text-transform: uppercase;
+}
+
+.tiletxt {
+	background-color: black;
+	text-align: left;
+	margin: 0px;
+	padding: 18px 24px 0px;
+	height: 74px;
+}
+.tiletxt h4 {
+	margin: 0px;
+}
+.tiletxt p {
+	margin: 0px;
+	text-transform: none;
+
+}
+.expbtn {
+	background-color: var(--dkgrey);
+	text-align: right;
+	margin: 0px;
+	padding: 10px 7px;
+}
+
+.expbtn > fas
