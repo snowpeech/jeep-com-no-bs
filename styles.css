@@ -49,6 +49,21 @@ a {
 }
 
 /*End of Navbar. Begin Carousel*/
+.pause {
+	width: 15px;
+	height: 18px;
+	padding: 8px 7px 8px 10px;
+	font-size: smaller;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+	top: 56px;
+	right: 15px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 .carousel {
 	width: 100%;
@@ -82,7 +97,7 @@ a {
 	font-weight: bold;
 	font-size: 14px;
 	margin: 0px 33px;
-	min-width: 64px; /*want to remove this and have the icon attahed to the button, not wrapping*/
+	min-width: 64px; /*want to remove this and have the icon attached to the button, not wrapping*/
 }
 
 .dotrow {
@@ -100,5 +115,5 @@ a {
 
 .dot {
 	background-color: var(--yellow) ;
-	border-radius: 50%;
+	border-radius: 50%
 }
