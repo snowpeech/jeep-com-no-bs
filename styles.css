@@ -70,8 +70,9 @@ h3 {
 }
 
 
-.carousel {
+.responsive100 {
 	width: 100%;
+	height: auto;
 }
 
 .carouseltxt {
@@ -176,6 +177,14 @@ h3 {
 	color: white;
 	text-transform: uppercase;
 }
+#car1 {
+	background-image: url("tilecompass.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	width: 100%;
+	min-height: 70vh; /*fix this*/
+}
 
 .tiletxt {
 	background-color: black;
@@ -199,4 +208,6 @@ h3 {
 	padding: 10px 7px;
 }
 
-.expbtn > fas
+.expbtn > fas {
+	color:var(--yellow);
+}
