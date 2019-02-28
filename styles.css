@@ -3,6 +3,7 @@
   --grey1: #636363;
   --dotgrey:#BDBDBD;
   --ltgrey: #D1D1D1; 
+  --ltgrey2: #E7E7E7; 
   --dkgrey: #212121;
 }
 
@@ -123,7 +124,7 @@ h3 {
 	background-color: var(--yellow) ;
 	border-radius: 50%
 } 
-/*end of carousel classes*/
+/*end of carousel. begin new cars*/
 .newcars {
 	display: flex;
 	flex-wrap: wrap;
@@ -202,18 +203,12 @@ h3 {
 	background-image: url("tilecherokee.jpg");
 }
 
-.hovwrap:hover {
-
-}
-
 .tiletxt {
 	background-color: black;
 	text-align: left;
 	margin: 0px;
 	padding: 18px 24px 0px;
 	height: 74px;
-	pointer-events: none; 
-/*	want to make button font yellow when this is hovered*/
 }
 .tiletxt h4 {
 	margin: 0px;
@@ -229,10 +224,27 @@ h3 {
 	font-size: 12px;
 	margin: 0px;
 	padding: 10px 7px;
-	pointer-events: auto;
-
 }
 
-.expbtn > .fas, .expbtn:hover  {
+.expbtn > .fas, .cartile:hover .expbtn{
 	color:var(--yellow);
+}
+/*end of tiles. begin graphics blurb*/
+.graphics {
+	padding:30px 25px;
+}
+
+.graphics p {
+	margin-top: 0px;
+	width: 50%;
+	font-size: 11px;	
+	font-weight: bold;
+}
+
+#graphicsbtn {
+	display: flex;
+	align-self: flex-start;
+	padding:10px 27px;
+	margin-left: 0px;
+	max-width: 190px;
 }
