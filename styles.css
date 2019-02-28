@@ -248,3 +248,15 @@ h3 {
 	margin-left: 0px;
 	max-width: 190px;
 }
+/*end of graphics. begin KBB*/
+.kbb {
+	padding: 30px;
+	background-color: var(--ltgrey);
+	text-align: center;
+}
+
+.kbb p{
+	text-transform: none;
+	color:white;
+	font-size: 14px;
+}
