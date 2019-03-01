@@ -348,7 +348,7 @@ h3 {
 .bottom {
 	background-color: black;
 	color: white;
-	padding: 25px;
+	padding: 20px;
 	display: block;
 }
 
@@ -380,8 +380,6 @@ h3 {
 /*	float: left;*/
 }
 
-
-
 .social i {
 	padding: 7px;
 	font-size: 27px;
@@ -390,18 +388,13 @@ h3 {
 .support-sub-heading{
 	padding:0px;
 	margin:0px;
-
+	padding-bottom:20px;
 }
 
 .social h4 {
 	font-size: 12px;
 	font-weight: bold;
 	width:100%;
-}
-
-
-.support-sub-heading{
-	padding-bottom:20px;
 }
 
 .d-flex{
@@ -414,6 +407,14 @@ h3 {
 /*end of social*/
 .end {
 	border-top: 1px solid var(--grey1);
-	width: 100%;
-	
+	font-size: 10px;
+	text-transform: none;
+	color: 	var(--ltgrey);
+}
+
+.end a {
+	padding: 10px;
+	text-transform: uppercase;
+	color: 	var(--ltgrey);
+	display: inline-block;
 }
