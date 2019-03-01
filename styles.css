@@ -73,6 +73,19 @@ h3 {
 .responsive100 {
 	width: 100%;
 	height: auto;
+	/*background-image: url("greycarportrait.jpg");*/
+}
+
+@media only screen and (max-width: 700px) {
+	.hide-in-mobile {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.hide-in-desktop-tablet {
+		display: none;
+	}
 }
 
 .carouseltxt {
@@ -306,8 +319,7 @@ h3 {
 	border-radius: 3px ;
 	height: 35px;
 	float: left;
-/*	align-items: center;
-	align-content: center;*/
+	margin-bottom: 35px;
 }
 
 .searchbar::before {
@@ -316,7 +328,6 @@ h3 {
 	display: inline-block;
 	padding: 9px;
 	font-weight:900;
-
 }
 
 .ylwsrch {
@@ -332,3 +343,6 @@ h3 {
 	white-space:nowrap;
 	display: inline-flex;
 }
+
+/*end of search section*/
+
