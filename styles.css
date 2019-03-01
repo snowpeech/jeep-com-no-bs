@@ -411,3 +411,9 @@ h3 {
 .flex-column{
 	flex-direction: column;
 }
+/*end of social*/
+.end {
+	border-top: 1px solid var(--grey1);
+	width: 100%;
+	
+}
