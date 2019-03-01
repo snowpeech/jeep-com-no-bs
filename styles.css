@@ -328,6 +328,7 @@ h3 {
 	display: inline-block;
 	padding: 9px;
 	font-weight:900;
+	transform: rotate(90deg);
 }
 
 .ylwsrch {
@@ -343,6 +344,70 @@ h3 {
 	white-space:nowrap;
 	display: inline-flex;
 }
-
 /*end of search section*/
+.bottom {
+	background-color: black;
+	color: white;
+	padding: 25px;
+	display: block;
+}
 
+.btmlnk {
+	border-bottom: 1px solid white;
+	width: 100%;
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	font-weight: bold;
+
+}
+
+.btmlnk::after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f078";
+	display: inline-block;
+	padding: 9px;
+	font-weight:900;
+}
+
+.social {
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	flex:1;
+/*	float: left;*/
+}
+
+
+
+.social i {
+	padding: 7px;
+	font-size: 27px;
+}
+
+.support-sub-heading{
+	padding:0px;
+	margin:0px;
+
+}
+
+.social h4 {
+	font-size: 12px;
+	font-weight: bold;
+	width:100%;
+}
+
+
+.support-sub-heading{
+	padding-bottom:20px;
+}
+
+.d-flex{
+	display:flex;
+}
+
+.flex-column{
+	flex-direction: column;
+}
